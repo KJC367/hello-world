@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="MovieDB.exe"/>
+    <OBJFILES value="MovieDB.obj MovieMain.obj FrmMovie.obj ..\Common\StrTools.obj 
+      ..\Common\FrmTools.obj FrmPerson.obj FrmBase.obj FrmType.obj 
+      ..\Common\PrtPage.obj FrmReport.obj ..\Common\TimeStamp.obj frmGraph.obj 
+      FrmQuery.obj"/>
+    <RESFILES value="MovieDB.res"/>
+    <IDLFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) MovieMain.dfm FrmMovie.dfm FrmPerson.dfm FrmBase.dfm 
+      FrmType.dfm FrmReport.dfm frmGraph.dfm FrmQuery.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="bcbsmp.lib TDx_Sound_Library.lib vclx.lib vcl.lib rtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib vclx.lib TDx_Sound_Library.lib bcbsmp.lib"/>
+    <PACKAGES value="vclx.bpi rtl.bpi vcl.bpi dbrtl.bpi vcldb.bpi bdertl.bpi vcldbx.bpi 
+      qrpt.bpi teeui.bpi vclsmp.bpi teedb.bpi tee.bpi nmfast.bpi inetdb.bpi 
+      inet.bpi bcbsmp.bpi dclocx.bpi ibsmp.bpi TDx_Sound_Library.bpi 
+      CPortLibCB6.bpi"/>
+    <PATHCPP value=".;..\Common"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="MovieDB.cpp"/>
+    <INCLUDEPATH value="..\Common;D:\Projs\MovieDB;D:\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="..\Common;D:\Projs\MovieDB;$(BCB)\Projects\Lib;D:\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-wprc -wuse -wstv -wstu -wpin -wnod -wnak -w-8027 -wdef"/>
+    <WARNOPTSTR value=""/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-O2 -Q -P -Vx -Ve -Tkh30000 -X- -r- -a8 -5 -b- -k -y -v -vi- -c -tW -tWM"/>
+    <CFLAG2 value=""/>
+    <CFLAG3 value=""/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -M -JPHNE"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -GD -s -Gn -M -w -v"/>
+    <IFLAGS value=""/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="MovieDB.res" FORMNAME="" UNITNAME="MovieDB.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MovieDB.cpp" FORMNAME="" UNITNAME="MovieDB" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MovieMain.cpp" FORMNAME="Form1" UNITNAME="MovieMain" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FrmMovie.cpp" FORMNAME="MoviesForm" UNITNAME="FrmMovie" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Common\StrTools.cpp" FORMNAME="" UNITNAME="StrTools" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Common\FrmTools.cpp" FORMNAME="" UNITNAME="FrmTools" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FrmPerson.cpp" FORMNAME="PersonForm" UNITNAME="FrmPerson" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FrmBase.cpp" FORMNAME="QueryForm" UNITNAME="FrmBase" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FrmType.cpp" FORMNAME="TypeForm" UNITNAME="FrmType" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Common\PrtPage.CPP" FORMNAME="" UNITNAME="PrtPage" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FrmReport.cpp" FORMNAME="ReportForm" UNITNAME="FrmReport" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Common\TimeStamp.cpp" FORMNAME="" UNITNAME="TimeStamp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="frmGraph.cpp" FORMNAME="GraphForm" UNITNAME="frmGraph" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FrmQuery.cpp" FORMNAME="Form2" UNITNAME="FrmQuery" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <FILES>
+    <FILE type="override" value="..\..\Borland\CBuilder6\Projects\OPVOICE.CPP" translator="Auto">
+      <CFLAG1 value=" -w -Tkh30000"/>
+    </FILE>
+  </FILES>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=1
+MinorVer=0
+Release=2
+Build=1
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1033
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=Conner Innovation Engineering, LLC
+FileDescription=Movie Database
+FileVersion=1.0.2.1
+InternalName=
+LegalCopyright=2014
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+Contact=Kevin.Conner@Honeywell.com
+
+[Excluded Packages]
+D:\borland\cbuilder6\Bin\DBWEBXPRT.BPL=Borland Web Wizard Package
+D:\Borland\CBuilder6\Bin\dclclxstd60.bpl=Borland CLX Standard Components
+D:\borland\cbuilder6\Bin\dclite60.bpl=Borland Integrated Translation Environment
+D:\borland\cbuilder6\Bin\dclclxdb60.bpl=Borland CLX Database Components
+D:\borland\cbuilder6\Bin\dclib60.bpl=InterBase Data Access Components
+d:\borland\cbuilder6\Projects\Bpl\dclusr60.bpl=Borland User Components
+
+[HistoryLists\hlIncludePath]
+Count=16
+Item0=..\Common;D:\Projs\MovieDB;D:\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item1=..\Common;D:\Projs\MovieDB;D:\Borland\CBuilder6\Projects;D:\Projs\common;$(BCB)\include;$(BCB)\include\vcl
+Item2=D:\Projs\MovieDB;D:\Borland\CBuilder6\Projects;D:\Projs\common;$(BCB)\include;$(BCB)\include\vcl
+Item3=D:\Projs\MovieDB;D:\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item4=D:\PROJECTS\fltsim\RAASer;D:\Borland\CBuilder6\Projects;$(BCB)\include;baseline;$(BCB)\include\vcl
+Item5=D:\PROJECTS\fs2004\RAASer;D:\Borland\CBuilder6\Projects;$(BCB)\include;baseline;$(BCB)\include\vcl
+Item6=D:\PROJECTS\fs2004\RAASer;D:\Borland\CBuilder6\Projects;baseline;$(BCB)\include;$(BCB)\include\vcl
+Item7=D:\PROJECTS\fs2004\RAASer;baseline;D:\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item8=baseline;D:\Borland\CBuilder6\Projects;D:\PROJECTS\fs2004\RAASer;$(BCB)\include;$(BCB)\include\vcl;..\common;c:\borland\cbuilder3\projects;c:\borland\cbuilder3\lib
+Item9=baseline;D:\Borland\CBuilder6\Projects;D:\PROJECTS\fs2004\RAASer;$(BCB)\include;baseline;$(BCB)\include\vcl;..\common;c:\borland\cbuilder3\projects;c:\borland\cbuilder3\lib
+Item10=D:\Borland\CBuilder6\Projects;D:\PROJECTS\fs2004\RAASer;$(BCB)\include;baseline;$(BCB)\include\vcl;..\common;c:\borland\cbuilder3\projects;c:\borland\cbuilder3\lib
+Item11=D:\Borland\CBuilder6\Projects;D:\PROJECTS\fs2004\RAASer;baseline;..\common;c:\borland\cbuilder3\projects;c:\borland\cbuilder3\lib;$(BCB)\include;$(BCB)\include\vcl
+Item12=D:\Borland\CBuilder6\Projects;D:\PROJECTS\fs2004\RAASer;baseline;D:\Projects\fs2004\raaser\baseline;..\common;c:\borland\cbuilder3\projects;c:\borland\cbuilder3\lib;$(BCB)\include;$(BCB)\include\vcl
+Item13=baseline;D:\Borland\CBuilder6\Projects;D:\PROJECTS\fs2004\RAASer;D:\Projects\fs2004\raaser\baseline;..\common;c:\borland\cbuilder3\projects;c:\borland\cbuilder3\lib;$(BCB)\include;$(BCB)\include\vcl
+Item14=D:\Borland\CBuilder6\Projects;D:\PROJECTS\fs2004\RAASer;D:\Projects\fs2004\raaser\baseline;..\common;c:\borland\cbuilder3\projects;c:\borland\cbuilder3\lib;$(BCB)\include;$(BCB)\include\vcl
+Item15=D:\Borland\CBuilder6\Projects;D:\PROJECTS\fs2004\RAASer;..\common;c:\borland\cbuilder3\projects;c:\borland\cbuilder3\lib;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=6
+Item0=..\Common;D:\Projs\MovieDB;$(BCB)\Projects\Lib;D:\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item1=D:\Projs\MovieDB;$(BCB)\Projects\Lib;D:\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item2=baseline;D:\PROJECTS\fltsim\RAASer;D:\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item3=baseline;D:\PROJECTS\fs2004\RAASer;D:\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item4=baseline;D:\Borland\CBuilder6\Projects;D:\PROJECTS\fs2004\RAASer;..\common;c:\borland\cbuilder3\projects;c:\borland\cbuilder3\lib;$(BCB)\lib\obj;$(BCB)\lib
+Item5=D:\Borland\CBuilder6\Projects;D:\PROJECTS\fs2004\RAASer;..\common;c:\borland\cbuilder3\projects;c:\borland\cbuilder3\lib;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=2
+Item0=EM5_7;LRU=1;I486;NO_AUX;_DEBUG
+Item1=EM5_7;LRU=1;I486;_DEBUG;NO_AUX
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=1
+LinkDebugVcl=0
+LinkCGLIB=0
+  </IDEOPTIONS>
+</PROJECT>
